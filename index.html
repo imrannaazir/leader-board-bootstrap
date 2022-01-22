@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board Bootstrap</title>
+    <!-------------------
+     Bootstrap css
+    -------------- -->
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/61fddd01f3.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-color: #F3F1FF;">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar navbar-dark" style="background-color: #562EFF;">
+            <div class="container">
+                <a class="navbar-brand me-2" href="#"> <img src="images/icons/logo.png" alt="" width="40" height="51">
+                    <span>Idea</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="d-flex align-items-center navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/icons/profile.png" alt="" width="51"
+                                    height="51"></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="container bg-white rounded">
+            <div>
+                <h3 class="my-5 pt-3" style="color: #562EFF;">Top Player</h3>
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center"><img
+                            src="images/players/player-1.png" alt="" width="56" height="56">
+                        <h4 class="ms-3">John Smith</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center"><img
+                            src="images/players/player-2.png" alt="" width="56" height="56">
+                        <h4 class="ms-3">John Smith</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center"><img
+                            src="images/players/player-3.png" alt="" width="56" height="56">
+                        <h4 class="ms-3">John Smith</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center"><img
+                            src="images/players/player-4.png" alt="" width="56" height="56">
+                        <h4 class="ms-3">John Smith</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center"><img
+                            src="images/players/player-5.png" alt="" width="56" height="56">
+                        <h4 class="ms-3">John Smith</h4>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center"><img
+                            src="images/players/player-6.png" alt="" width="56" height="56">
+                        <h4 class="ms-3">John Smith</h4>
+                    </div>
+                </div>
+                <hr>
+                <h3 style="color: #562EFF;">Top Blog</h3>
+                <div class="row gy-4 pb-3">
+                    <div class="col-lg-6 col-md-6 col-sm-12 d-flex">
+                        <img src="images/blogs/blog-1.png" alt="" width="177" height="117">
+                        <div class="ps-3">
+                            <h4>13 of My Favorite UI/UX Goodies</h4>
+                            <p>by <span style="color: #562EFF;">Danny Sopio</span></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 d-flex">
+                        <img src="images/blogs/blog-2.png" alt="" width="177" height="117">
+                        <div class="ps-3">
+                            <h4>UI cheat sheet:
+                                list vs grids</h4>
+                            <p>by <span style="color: #562EFF;">Tess Gadd</span></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 d-flex">
+                        <img src="images/blogs/blog-3.png" alt="" width="177" height="117">
+                        <div class="ps-3">
+                            <h4>7 typography tips
+                                for interface design</h4>
+                            <p>by <span style="color: #562EFF;">Jeremiah Lam</span></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 d-flex">
+                        <img src="images/blogs/blog-4.png" alt="" width="177" height="117">
+                        <div class="ps-3">
+                            <h4>Your logo is
+                                copied</h4>
+                            <p>by <span style="color: #562EFF;">Ferdinand Vogler</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container bg-white mt-5 rounded mb-5">
+            <h3 style="color: #562EFF;">Lates Course</h3>
+            <div class="row">
+                <div class="me-3 col-lg-4 col-md-6 col-sm-12 shadow">
+
+                    <img src="images/courses/course-1.png" alt="" width="224" height="104">
+                    <h4>React - The Complete <br> Guide 2020</h4>
+                    <p style="color: #ED6B4F;">Reed Krakoff</p>
+                    <div class="d-flex">
+                        <p><i class="fas fa-star filled" style="color: #FFC014;"></i>
+                            <i class="fas fa-star filled" style="color: #FFC014;"></i>
+                            <i class="fas fa-star filled" style="color: #FFC014;"></i>
+                            <i class="fas fa-star filled" style="color: #FFC014;"></i>
+                            <i class="fas fa-star emty" style="color: gray;"></i>
+                            <span style="color: ;">4.9</span>
+                        </p>
+                        <p class="rounded-pill px-2 ms-2" style="background-color: #FFE4E8; color: #FF4A60;">
+                            <i class="far fa-clock"></i> 01:30 hr
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 shadow">
+
+                    <img src="images/courses/course-2.png" alt="" width="224" height="104">
+                    <h4>Powerpoint 2020 <br> Master Powerpoint Cour</h4>
+                    <p style="color: #ED6B4F;">Walter Scott</p>
+                    <div class="d-flex">
+                        <p><i class="fas fa-star filled" style="color: #FFC014;"></i>
+                            <i class="fas fa-star filled" style="color: #FFC014;"></i>
+                            <i class="fas fa-star filled" style="color: #FFC014;"></i>
+                            <i class="fas fa-star filled" style="color: #FFC014;"></i>
+                            <i class="fas fa-star emty" style="color: gray;"></i>
+                            <span style="color: ;">4.9</span>
+                        </p>
+                        <p class="rounded-pill px-2 ms-2" style="background-color: #FFE4E8; color: #FF4A60;">
+                            <i class="far fa-clock"></i> 01:30 hr
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 shadow">
+
+                    <img src="images/courses/course-3.png" alt="" width="224" height="104">
+                    <h4>The Complete JavaScript <br>Course 2020</h4>
+                    <p style="color: #ED6B4F;">Reed Krakoff</p>
+                    <div class="d-flex">
+                        <p><i class="fas fa-star filled" style="color: #FFC014;"></i>
+                            <i class="fas fa-star filled" style="color: #FFC014;"></i>
+                            <i class="fas fa-star filled" style="color: #FFC014;"></i>
+                            <i class="fas fa-star filled" style="color: #FFC014;"></i>
+                            <i class="fas fa-star emty" style="color: gray;"></i>
+                            <span style="color: ;">4.9</span>
+                        </p>
+                        <p class="rounded-pill px-2 ms-2" style="background-color: #FFE4E8; color: #FF4A60;">
+                            <i class="far fa-clock"></i> 01:30 hr
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer style="background-color: black; height: 100px; color: gray; font-weight: bold;"
+        class="d-flex justify-content-center align-items-center">
+        <p>Copyright © 2022 Leader Board Bootstrap</p>
+
+
+    </footer>
+
+
+    <!--------------------
+         bootstrap js
+         --------------- -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
